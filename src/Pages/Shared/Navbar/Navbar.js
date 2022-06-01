@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../../../logo.png";
+import logo from "../../../logo1.png";
 import {
     faThumbsUp,
     faUsers,

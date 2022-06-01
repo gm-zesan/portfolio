@@ -1,0 +1,31 @@
+
+.skill-item .skill-info h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skill-item .skill-info span {
+    font-size: 14px;
+}
+.progress {
+    height: 10px!important;
+    margin-bottom: 20px;
+    border-radius: 15px!important;
+    box-shadow: none;
+}
+
+.progress-bar {
+    border-radius: 15px;
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 7px;
+    color: #fff!important;
+    text-align: center;
+    background-color: #353353!important;
+    box-shadow: none;
+}
+.spacer-20{
+    height: 20px;
+}
+

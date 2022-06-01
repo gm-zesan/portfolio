@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import avt from "../../../images/avatar-2.svg";
+import avt from "../../../images/avatar-1.svg";
 import {
     faThumbsUp,
     faUsers,

@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
-const Resume = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Hero.css";
+const Hero = () => {
     return (
-        <div class="breadcrumb-section section-bg position-relative">
+        <div id="hero" class="breadcrumb-section section-bg position-relative">
             <div class="breadcrumb-shape-top-left"></div>
             <div class="breadcrumb-shape-bottom-right"></div>
             <div class="breadcrumb-box">
@@ -34,4 +34,4 @@ const Resume = () => {
     );
 };
 
-export default Resume;
+export default Hero;

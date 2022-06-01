@@ -27,7 +27,7 @@
 }
 
 .navbar-nav .nav-link  {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     padding: 0;
     color: #FFF!important;
@@ -38,11 +38,25 @@ a.social-icon {
     padding-right: 15px;
     color: #fff!important;
     margin-right: 5px;
+    font-size: 18px;
 }
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none!important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../../../images/download.svg")!important;
+}
+
 a.social-icon:hover{
-    color: #f23849 !important;
+    color: #FFD15C !important;
 }
 
 .desktop-header .nav-link:hover {
-    color: #f23849 !important;
+    color: #FFD15C !important;
 }

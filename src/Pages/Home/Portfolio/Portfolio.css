@@ -114,11 +114,11 @@
 }
 
 .portfolio-filter li:hover {
-    color: #f23849;
+    color: #FFD15C;
 }
 
 .portfolio-filter li.current {
-    color: #f23849;
+    color: #FFD15C;
 }
 
 .portfolio-filter li:not(:last-child) {

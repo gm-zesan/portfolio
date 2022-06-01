@@ -1,0 +1,78 @@
+/* Timeline */
+.timeline {
+    position: relative;
+    border-radius: 20px;
+    background-color: #302f4e;
+}
+
+.timeline .sub-title {
+    position: absolute;
+    top: -19px;
+    color: rgb(120 112 88);
+    left: 35%;
+}
+
+.timeline .timeline-container {
+    padding-left: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+.timeline .timeline-container:last-of-type {
+    margin-bottom: 0;
+}
+
+.timeline.edu .timeline-container::after {
+    content: "";
+    background: #302f4e;
+    font-family: "simple-line-icons";
+    font-size: 24px;
+    color: #ff4c60;
+    position: absolute;
+    left: -7px;
+    top: 0;
+    z-index: 1;
+}
+
+.timeline.exp .timeline-container::after {
+    content: "";
+    background: #302f4e;
+    font-family: "simple-line-icons";
+    font-size: 24px;
+    color: #ff4c60;
+    position: absolute;
+    left: -7px;
+    top: 0;
+    z-index: 1;
+}
+
+.timeline .content {
+    position: relative;
+}
+
+.timeline .content .time {
+    color: #8b88b1;
+    font-size: 14px;
+}
+
+.timeline .content h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.timeline .content p {
+    margin: 0;
+    color: #5e5c7f;
+}
+
+.timeline span.line {
+    position: absolute;
+    width: 1px;
+    background-color: #ff4c60;
+    top: 30px;
+    bottom: 30px;
+    left: 34px;
+}

@@ -13,7 +13,8 @@
 
 .profile-card {
     border-radius: 20px !important;
-    border: 1px solid #302f4e !important;
+    /* border: 1px solid #302f4e !important; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .profile-card::before {
     content: "";
@@ -51,7 +52,7 @@
     top: -7px;
     position: absolute;
     width: 40px;
-    background-color: #ff4c60;
+    background-color: #FFD15C;
     border-radius: 50%;
     opacity: 0.5;
     z-index: -1;
@@ -77,9 +78,9 @@
     padding: 10px 30px !important;
 }
 .btn-default {
-    color: #fff !important;
-    background-color: #f23849 !important;
-    box-shadow: none;
+    color: #302f4e !important;
+    background-color: #FFD15C !important;
+    /* box-shadow: 50px 0px 40px 0px #FFD15C; */
 }
 .btn-default:hover {
     opacity: 0.8;

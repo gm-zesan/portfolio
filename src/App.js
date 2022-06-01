@@ -3,8 +3,8 @@ import Header from "./Pages/Shared/Navbar/Navbar";
 import Home from "./Pages/Home/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
-import Resume from "./Pages/Resume/Resume";
 import Contact from "./Pages/Contact/Contact";
+import Resume from "./Pages/Resume/Resume/Resume";
 
 function App() {
     return (

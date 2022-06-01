@@ -1,0 +1,48 @@
+.desktop-header{
+    background: transparent!important;
+    padding: 5px 0!important;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1025;
+}
+
+.desktop-header.sticky{
+    background: #353353!important;
+}
+
+.desktop-header.navbar {
+    padding: 0;
+}
+
+.desktop-header.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.desktop-header .navbar-nav .nav-link-wrapper:not(:last-child) {
+    padding-right: 2rem;
+}
+
+.navbar-nav .nav-link  {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    color: #FFF!important;
+    text-transform: uppercase;
+}
+a.social-icon {
+    text-decoration: none;
+    padding-right: 15px;
+    color: #fff!important;
+    margin-right: 5px;
+}
+a.social-icon:hover{
+    color: #f23849 !important;
+}
+
+.desktop-header .nav-link:hover {
+    color: #f23849 !important;
+}

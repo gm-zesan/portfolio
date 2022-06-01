@@ -1,0 +1,135 @@
+section {
+    padding-top: 110px;
+    position: relative;
+}
+
+section.home {
+    padding: 0;
+    background-image: url("../../../images/hero_bg.jpg");
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section.home::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #353353;
+    opacity: 0.6;
+}
+
+section.home.light::before{
+    background: #F9F9FF;
+}
+
+section.home .intro {
+    margin: auto;
+    max-width: 540px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+section.home .intro p {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+section.home .intro h1 {
+    color: #FFF;
+    font-size: 36px;
+}
+
+section.home .intro span {
+    color: #FFF;
+    font-size: 16px;
+}
+
+section.home .social-icons li a {
+    color: #FFF;
+}
+.scroll-down {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+@-webkit-keyframes ani-mouse {
+    0% {
+        top: 29%;
+    }
+    15% {
+        top: 50%;
+    }
+    50% {
+        top: 50%;
+    }
+    100% {
+        top: 29%;
+    }
+}
+
+@keyframes ani-mouse {
+    0% {
+        top: 29%;
+    }
+    15% {
+        top: 50%;
+    }
+    50% {
+        top: 50%;
+    }
+    100% {
+        top: 29%;
+    }
+}
+.mouse-wrapper {
+    color: #FFF;
+    font-size: 14px;
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.mouse-wrapper:hover {
+    color: #FFF;
+}
+
+.mouse {
+    border: solid 2px #FFF;
+    border-radius: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 26px;
+    position: relative;
+    width: 20px;
+}
+
+.mouse .wheel {
+    background: #FFF;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 4px;
+    width: 4px;
+    -webkit-animation: ani-mouse 2s linear infinite;
+    animation: ani-mouse 2s linear infinite;
+}

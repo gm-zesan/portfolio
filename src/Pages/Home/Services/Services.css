@@ -1,0 +1,22 @@
+.service-box {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #302f4e;
+    border-radius: 20px;
+    background-color: #302f4e;
+    color: rgb(173, 173, 173);
+}
+
+.service-box h3 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.service-box img {
+    margin-bottom: 22px;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+

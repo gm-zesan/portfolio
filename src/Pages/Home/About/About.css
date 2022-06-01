@@ -1,0 +1,97 @@
+.icons {
+    border-top: 2px double #302f4e;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.icons .card-icon {
+    font-size: 20px;
+    color: #302f4e;
+    margin: 0 auto;
+}
+
+.profile-card {
+    border-radius: 20px !important;
+    border: 1px solid #302f4e !important;
+}
+.profile-card::before {
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    /* border: 7px solid #f23849; */
+    border: 7px solid #302f4e;
+    border-radius: 20px;
+    transition: 0.4s ease-in-out;
+    pointer-events: none;
+}
+.profile-card:hover:before {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.section-title {
+    font-size: 36px;
+    margin: 0;
+    margin-left: 14px;
+    font-weight: 700;
+    position: relative;
+}
+.section-title:before {
+    content: "";
+    display: block;
+    height: 40px;
+    left: -7px;
+    top: -7px;
+    position: absolute;
+    width: 40px;
+    background-color: #ff4c60;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.spacer {
+    height: 60px;
+}
+
+.black-box {
+    background: #302f4e !important;
+    color: rgb(173, 173, 173);
+    border-radius: 20px !important;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+.btn {
+    border-radius: 30px !important;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700 !important;
+    line-height: 1;
+    padding: 10px 30px !important;
+}
+.btn-default {
+    color: #fff !important;
+    background-color: #f23849 !important;
+    box-shadow: none;
+}
+.btn-default:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+    .icons {
+        padding: 30px 0px 30px 0px;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    .profile-card {
+        margin-bottom: 30px;
+    }
+}

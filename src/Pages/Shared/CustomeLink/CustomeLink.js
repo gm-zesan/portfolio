@@ -9,7 +9,8 @@ function CustomLink({ children, to, ...props }) {
         <div className="nav-link-wrapper">
             <Link
                 style={{
-                    color: match ? "2px solid #f23849" : "none",
+                    color: match ? "#FFD15C" : "#fff",
+                    borderBottom: match ? "2px solid #FFD15C" : "none",
                 }}
                 to={to}
                 {...props}

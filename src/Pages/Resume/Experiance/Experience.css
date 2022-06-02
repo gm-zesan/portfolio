@@ -8,7 +8,10 @@
 .timeline .sub-title {
     position: absolute;
     top: -19px;
-    color: rgb(120 112 88);
+    background-color: #FFD15C;
+    border-radius: 30px;
+    padding: 2px 1rem;
+    color: #302f4e;
     left: 35%;
 }
 
@@ -29,7 +32,7 @@
     background: #302f4e;
     font-family: "simple-line-icons";
     font-size: 24px;
-    color: #ff4c60;
+    color: #FFD15C;
     position: absolute;
     left: -7px;
     top: 0;
@@ -41,7 +44,7 @@
     background: #302f4e;
     font-family: "simple-line-icons";
     font-size: 24px;
-    color: #ff4c60;
+    color: #FFD15C;
     position: absolute;
     left: -7px;
     top: 0;
@@ -71,7 +74,7 @@
 .timeline span.line {
     position: absolute;
     width: 1px;
-    background-color: #ff4c60;
+    background-color: #FFD15C;
     top: 30px;
     bottom: 30px;
     left: 34px;

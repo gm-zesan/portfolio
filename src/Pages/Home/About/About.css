@@ -1,42 +1,3 @@
-.icons {
-    border-top: 2px double #302f4e;
-    padding: 50px;
-    width: 100%;
-    text-align: center;
-}
-
-.icons .card-icon {
-    font-size: 20px;
-    color: #302f4e;
-    margin: 0 auto;
-}
-
-.profile-card {
-    border-radius: 20px !important;
-    /* border: 1px solid #302f4e !important; */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-.profile-card::before {
-    content: "";
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    left: 50%;
-    top: 50%;
-    opacity: 0;
-    margin-top: 40px;
-    transform: translate(-50%, -50%);
-    /* border: 7px solid #f23849; */
-    border: 7px solid #302f4e;
-    border-radius: 20px;
-    transition: 0.4s ease-in-out;
-    pointer-events: none;
-}
-.profile-card:hover:before {
-    margin-top: 0;
-    opacity: 1;
-}
-
 .section-title {
     font-size: 36px;
     margin: 0;
@@ -60,7 +21,9 @@
 .spacer {
     height: 60px;
 }
-
+.me{
+    width: 220px;
+}
 .black-box {
     background: #302f4e !important;
     color: rgb(173, 173, 173);

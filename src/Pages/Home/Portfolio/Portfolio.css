@@ -39,8 +39,8 @@
 }
 
 .portfolio-item .details span.term {
-    color: #FFF;
-    background: #f23849;
+    color: #302f4e;
+    background: #FFD15C;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     font-size: 14px;
@@ -138,19 +138,4 @@ select.portfolio-filter-mobile {
 
 select.portfolio-filter-mobile option {
     width: 100%;
-}
-
-.pf-filter-wrapper {
-    position: relative;
-}
-
-.pf-filter-wrapper:after {
-    content: "<";
-    position: absolute;
-    top: 5px;
-    right: 20px;
-    color: #000;
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
 }

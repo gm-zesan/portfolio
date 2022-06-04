@@ -16,7 +16,7 @@ const Portfolio = () => {
     return (
         <section id="works">
             <div class="container">
-                <h2 class="section-title wow fadeInUp">Recent works</h2>
+                <h2 class="section-title">Recent works</h2>
                 <div class="spacer"></div>
                 <ul class="portfolio-filter list-inline">
                     <li
@@ -71,15 +71,19 @@ const Portfolio = () => {
                     </li>
                 </ul>
                 {/* <!-- portolio wrapper --> */}
-                <motion.div layout class="row portfolio-wrapper">
+                <div class="row portfolio-wrapper">
                     <AnimatePresence>
                         {/* <!-- portfolio item --> */}
                         {updateProject.map((elem) => (
                             <motion.div
                                 layout
-                                animate={{ opacity: 1 }}
-                                initial={{ opacity: 0 }}
-                                exit={{ opacity: 0 }}
+                                transition={{ type: "spring"}}
+                                animate={{
+                                    opacity: 1,
+                                    scale: 1,
+                                }}
+                                initial={{ opacity: 0, scale: 0 }}
+                                exit={{ opacity: 0, scale: 0 }}
                                 key={elem.id}
                                 class="col-md-4 col-sm-6 grid-item art"
                             >
@@ -126,7 +130,7 @@ const Portfolio = () => {
                                 View on Dribbble
                             </a>
                         </div> */}
-                </motion.div>
+                </div>
                 {/* <!-- more button --> */}
                 <div class="load-more text-center mt-4">
                     <a href="javascript" class="btn btn-default">

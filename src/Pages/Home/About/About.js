@@ -9,7 +9,7 @@ const About = () => {
                 <div class="spacer"></div>
                 <div class="row align-items-center">
                     <div class="col-md-8">
-                        <div class="black-box shadow-dark padding-30">
+                        <div class="black-box padding-30">
                             <p>
                                 I am G.M. Zesan, web developer from Dhaka,
                                 Bangladesh. I have rich experience in web site

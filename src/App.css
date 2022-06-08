@@ -70,7 +70,9 @@ h4 {
 }
 
 a {
-    color: #ff4c60;
+    color: #FFD15C;
+    font-weight: bold;
+    text-decoration: none!important;
     outline: 0;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -194,7 +196,7 @@ pre {
     height: 100%;
     border-style: solid;
     /* Spinner Color */
-    border-color: #ff4c60 #ff4c60 transparent;
+    border-color: #FFD15C #FFD15C transparent;
     border-radius: 50%;
     border-width: 6px;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import avt from "../../../images/avatar-1.svg";
 import {
     faThumbsUp,
@@ -97,7 +97,7 @@ const Myself = () => {
                             </div>
                             <div class="mt-3">
                                 <a href="/" class="btn btn-default">
-                                    Download CV
+                                    Download Resume
                                 </a>
                             </div>
                         </div>

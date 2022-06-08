@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./contact.css";
-const Contact = () => {
+const Hero = () => {
     return (
         <div class="breadcrumb-section section-bg position-relative">
             <div class="breadcrumb-shape-top-left"></div>
@@ -34,4 +33,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Hero;

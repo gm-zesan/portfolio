@@ -21,14 +21,14 @@ const About = () => {
                             </p>
                             <div class="mt-3">
                                 <a href="/" class="btn btn-default">
-                                    Download CV
+                                    Download Resume
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-center text-md-right">
-                            <img src={avt} alt="omor" className="me"/>
+                            <img src={avt} alt="omor" className="me" />
                         </div>
                         <div
                             class="spacer d-md-none d-lg-none"

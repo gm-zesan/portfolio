@@ -16,7 +16,7 @@ const Portfolio = () => {
     return (
         <section id="works">
             <div class="container">
-                <h2 class="section-title">Recent works</h2>
+                <h2 class="section-title">Recent projects</h2>
                 <div class="spacer"></div>
                 <ul class="portfolio-filter list-inline">
                     <li
@@ -77,7 +77,7 @@ const Portfolio = () => {
                         {updateProject.map((elem) => (
                             <motion.div
                                 layout
-                                transition={{ type: "spring"}}
+                                transition={{ type: "spring" }}
                                 animate={{
                                     opacity: 1,
                                     scale: 1,

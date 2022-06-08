@@ -14,6 +14,11 @@ const Hero = () => {
                             Front-End developer
                         </span>
                     </span>
+                    <div className="mt-5">
+                        <button className="btn btn-default">
+                            Download Resume
+                        </button>
+                    </div>
                 </div>
                 {/* scroll down mouse wheel */}
                 <div className="scroll-down">

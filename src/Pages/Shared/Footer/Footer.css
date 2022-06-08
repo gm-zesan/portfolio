@@ -1,16 +1,25 @@
-
 footer.footer {
     background: #353353;
     padding: 30px 0;
 }
 
 footer.footer .copyright {
-    color: #9C9AB3;
+    color: #9c9ab3;
     font-size: 14px;
 }
-
+.footer-text-icon {
+    text-align: right;
+}
 footer.footer.light {
-    background: #F9F9FF;
+    background: #f9f9ff;
     border-top: solid 1px rgba(0, 0, 0, 0.05);
 }
-
+@media screen and (max-width: 767px) {
+    .footer-text {
+        text-align: center;
+    }
+    .footer-text-icon {
+        text-align: center;
+        padding-top: 15px;
+    }
+}

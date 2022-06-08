@@ -1,11 +1,22 @@
-#me{
+#me {
     padding-top: 0px;
     margin-top: -60px;
     text-align: center;
 }
-.cont-icon{
+.cont-icon {
     border: none;
     padding: 0px;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+}
+@media only screen and (min-width: 1200px) {
+    .cont-icon {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 576px) {
+    .cont-icon {
+        width: 60%;
+    }
 }

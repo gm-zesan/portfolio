@@ -3,7 +3,6 @@ import {
     faThumbsUp,
     faUsers,
     faMoneyBill,
-    faComputer,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./DetailsForm.css";
@@ -12,19 +11,19 @@ const DetailsForm = () => {
         <section id="contact">
             <div class="container">
                 <h2 class="section-title">Get In Touch</h2>
-                <h3>Let's talk about everything!</h3>
                 <div class="spacer"></div>
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-4">
                         <div class="contact-info">
-                            <div class="address">
+                            <h3>Let's talk about everything!</h3>
+                            <div class="address mt-5">
                                 <div className="d-flex">
                                     <div className="info-icon">
                                         <FontAwesomeIcon icon={faThumbsUp} />
                                     </div>
                                     <h4>Location:</h4>
                                 </div>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Lalmati, Mirpur-11, Dhaka, Bangladesh</p>
                             </div>
 
                             <div class="email">
@@ -32,9 +31,9 @@ const DetailsForm = () => {
                                     <div className="info-icon">
                                         <FontAwesomeIcon icon={faUsers} />
                                     </div>
-                                    <h4>Email:</h4>{" "}
+                                    <h4>Email:</h4>
                                 </div>
-                                <p>info@example.com</p>
+                                <p>gmzesan7767@gmail.com</p>
                             </div>
 
                             <div class="phone">
@@ -45,11 +44,11 @@ const DetailsForm = () => {
                                     <h4>Call:</h4>
                                 </div>
 
-                                <p>+1 5589 55488 55s</p>
+                                <p>+8801770597767</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 py-3">
                         <div id="form-messages"></div>
                         <form id="contact-form" class="contact-form">
                             <div class="row">

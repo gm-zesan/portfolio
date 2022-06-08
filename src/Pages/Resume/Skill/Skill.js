@@ -8,7 +8,7 @@ const Skill = () => {
                 <h2 class="section-title">Skill</h2>
                 <div class="spacer" data-height="60"></div>
                 <div class="row">
-                    <div class="col-md-6 pe-5">
+                    <div class="col-md-6 pe-md-5">
                         {/* <!-- skill item --> */}
                         <div class="skill-item">
                             <div class="skill-info clearfix">
@@ -42,7 +42,7 @@ const Skill = () => {
                             <ProgressBar variant="success" now={40} />
                         </div>
                     </div>
-                    <div class="col-md-6 ps-5">
+                    <div class="col-md-6 ps-md-5">
                         <div class="skill-item">
                             <div class="skill-info clearfix">
                                 <h4 class="float-left mb-3 mt-0">

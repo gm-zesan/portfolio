@@ -15,12 +15,12 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="row justify-content-between">
-                    <div className="col-md-6">
+                    <div className="col-md-6 footer-text">
                         <span className="copyright">
                             Copyright &copy; {year} All rights reserved.
                         </span>
                     </div>
-                    <div className="col-md-6 text-right">
+                    <div className="col-md-6 footer-text-icon">
                         <a className="social-icon" href="/">
                             <FontAwesomeIcon icon={faThumbsUp} />
                         </a>

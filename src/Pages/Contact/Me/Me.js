@@ -11,14 +11,14 @@ import "./Me.css";
 const Me = () => {
     return (
         <section id="me">
-            <div className='row'>
+            <div className="row">
                 <div className="col-12 col-md-4 col-sm-6 mx-auto">
                     <div>
                         <img src={avt} alt="" />
                     </div>
-                    <h2 className='mt-3'>G.M. Zesan</h2>
-                    <h5>Email : gmzesan7767@gmail.com</h5>
-                    <div class="gap-5 mt-3 icons cont-icon d-flex">
+                    <h2 className="mt-3">G.M. Zesan</h2>
+                    <h5>gmzesan7767@gmail.com</h5>
+                    <div class="gap-5 mt-3 icons cont-icon w-lg-75 d-flex">
                         <a className="card-icon" href="/">
                             <FontAwesomeIcon icon={faThumbsUp} />
                         </a>

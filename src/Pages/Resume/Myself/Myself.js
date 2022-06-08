@@ -13,7 +13,7 @@ const Myself = () => {
         <section id="myself">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-4">
+                    <div class="col-md-5 col-lg-4">
                         <div class="card profile-card p-4">
                             <div class=" image d-flex flex-column justify-content-center align-items-center">
                                 <img
@@ -44,7 +44,7 @@ const Myself = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7 col-lg-8">
                         <div class="box-shadow padding-30">
                             <h2 class="section-title">My-Self</h2>
                             <div class="spacer"></div>

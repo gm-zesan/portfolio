@@ -64,7 +64,7 @@ const Experience = () => {
                         {/* <!-- timeline wrapper --> */}
                         <div class="timeline exp padding-30">
                             {/* <!-- timeline item --> */}
-                            <h2 className="sub-title">Work log</h2>
+                            <h2 className="sub-title">Skill log</h2>
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
                                     <span class="time">2019 - Present</span>

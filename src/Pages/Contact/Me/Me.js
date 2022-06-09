@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import avt from "../../../images/avatar-1.svg";
 import {
     faThumbsUp,
@@ -18,7 +18,7 @@ const Me = () => {
                     </div>
                     <h2 className="mt-3">G.M. Zesan</h2>
                     <h5>gmzesan7767@gmail.com</h5>
-                    <div class="gap-5 mt-3 icons cont-icon w-lg-75 d-flex">
+                    <div className="gap-5 mt-3 icons cont-icon w-lg-75 d-flex">
                         <a className="card-icon" href="/">
                             <FontAwesomeIcon icon={faThumbsUp} />
                         </a>

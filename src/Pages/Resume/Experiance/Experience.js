@@ -3,108 +3,87 @@ import "./Experience.css";
 const Experience = () => {
     return (
         <section id="experience">
-            <div class="container">
-                {/* <!-- section title --> */}
-                <h2 class="section-title">Experience</h2>
-                <div class="spacer" data-height="60"></div>
-                <div class="row">
-                    <div class="col-md-6">
-                        {/* <!-- timeline wrapper --> */}
-                        <div class="timeline edu padding-30">
-                            {/* <!-- timeline item --> */}
-                            <h2 className="sub-title">Education</h2>
-                            <div class="timeline-container">
-                                <div class="content">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Academic Degree</h3>
+            <div className="container">
+                <h2 className="section-title">Education</h2>
+                <div className="spacer" data-height="60"></div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="timeline edu padding-30">
+                            <h2 className="sub-title">Academic</h2>
+                            <div className="timeline-container">
+                                <div className="content">
+                                    <span className="time">2021 - Running</span>
+                                    <h3 className="title">Bachelor’s Degree</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet quo ei simul
-                                        congue exerci ad nec admodum perfecto.
+                                        Bachelor is running(First Year) in Green
+                                        University of Bangladesh. Department is
+                                        CSE.
                                     </p>
                                 </div>
                             </div>
-                            {/* <!-- timeline item --> */}
-                            <div
-                                class="timeline-container"
-                                data-wow-delay="0.2s"
-                            >
-                                <div class="content">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Bachelor’s Degree</h3>
+                            <div className="timeline-container">
+                                <div className="content">
+                                    <span className="time">2016 - 2020</span>
+                                    <h3 className="title">Diploma</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet quo ei simul
-                                        congue exerci ad nec admodum perfecto.
+                                        Diploma has completed from Faridpur
+                                        Polytechnic Institute. CGPA : 3.69
                                     </p>
                                 </div>
                             </div>
-                            {/* <!-- timeline item --> */}
-                            <div
-                                class="timeline-container"
-                                data-wow-delay="0.4s"
-                            >
-                                <div class="content">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Honours Degree</h3>
+                            <div className="timeline-container">
+                                <div className="content">
+                                    <span className="time">2015 - 2016</span>
+                                    <h3 className="title">SSC</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet quo ei simul
-                                        congue exerci ad nec admodum perfecto.
+                                        I have done my SSC from Torkey Bandar
+                                        Victory High School, Gouranadi, Barisal.
                                     </p>
                                 </div>
                             </div>
-                            {/* <!-- main line --> */}
-                            <span class="line"></span>
+                            <span className="line"></span>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        {/* <!-- responsive spacer --> */}
+                    <div className="col-md-6">
                         <div
-                            class="spacer d-md-none d-lg-none"
+                            className="spacer d-md-none d-lg-none"
                             data-height="30"
                         ></div>
-                        {/* <!-- timeline wrapper --> */}
-                        <div class="timeline exp padding-30">
-                            {/* <!-- timeline item --> */}
+                        <div className="timeline exp padding-30">
                             <h2 className="sub-title">Skill log</h2>
-                            <div class="timeline-container wow fadeInUp">
-                                <div class="content">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Web Designer</h3>
+                            <div className="timeline-container">
+                                <div className="content">
+                                    <span className="time">2022 - Running</span>
+                                    <h3 className="title">React & Express</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet quo ei simul
-                                        congue exerci ad nec admodum perfecto.
+                                        I am running to MERN stack Developer. I
+                                        start my learning from Complete Web
+                                        Development Course With Jhankar Mahbub.
                                     </p>
                                 </div>
                             </div>
-                            {/* <!-- timeline item --> */}
-                            <div
-                                class="timeline-container wow fadeInUp"
-                                data-wow-delay="0.2s"
-                            >
-                                <div class="content">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Front-End Developer</h3>
+                            <div className="timeline-container">
+                                <div className="content">
+                                    <span className="time">2018 - 2019</span>
+                                    <h3 className="title">PHP(OOP)</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet quo ei simul
-                                        congue exerci ad nec admodum perfecto.
+                                        I had taken some ideas about PHP (OOP)
+                                        from a course at Doel Campus. Then I was
+                                        in polytechnic.
                                     </p>
                                 </div>
                             </div>
-                            {/* <!-- timeline item --> */}
-                            <div
-                                class="timeline-container wow fadeInUp"
-                                data-wow-delay="0.4s"
-                            >
-                                <div class="content">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Back-End Developer</h3>
+                            <div className="timeline-container">
+                                <div className="content">
+                                    <span className="time">2017-2018</span>
+                                    <h3 className="title">HTML & CSS</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet quo ei simul
-                                        congue exerci ad nec admodum perfecto.
+                                        I learnt HTML & CSS from different
+                                        resourses.
                                     </p>
                                 </div>
                             </div>
-                            {/* <!-- main line --> */}
-                            <span class="line"></span>
+                            <span className="line"></span>
                         </div>
                     </div>
                 </div>

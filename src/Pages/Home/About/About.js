@@ -4,12 +4,12 @@ import avt from "../../../images/avatar-2.svg";
 const About = () => {
     return (
         <section id="about">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="spacer"></div>
-                <div class="row align-items-center">
-                    <div class="col-md-8">
-                        <div class="black-box padding-30">
+            <div className="container">
+                <h2 className="section-title">About Me</h2>
+                <div className="spacer"></div>
+                <div className="row align-items-center">
+                    <div className="col-md-8">
+                        <div className="black-box padding-30">
                             <p>
                                 I am G.M. Zesan, web developer from Dhaka,
                                 Bangladesh. I have rich experience in web site
@@ -19,19 +19,22 @@ const About = () => {
                                 excepturi quae animi neque commodi. Officia,
                                 voluptatem? Magni, totam voluptas.
                             </p>
-                            <div class="mt-3">
-                                <a href="/" class="btn btn-default">
+                            <div className="mt-3">
+                                <a
+                                    href="https://drive.google.com/u/0/uc?id=1cxOwV5KDQkOG8HKTePto1Ao246NpTctk&export=download"
+                                    className="btn btn-default"
+                                >
                                     Download Resume
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="text-center text-md-right">
+                    <div className="col-md-4">
+                        <div className="text-center text-md-right">
                             <img src={avt} alt="omor" className="me" />
                         </div>
                         <div
-                            class="spacer d-md-none d-lg-none"
+                            className="spacer d-md-none d-lg-none"
                             data-height="30"
                         ></div>
                     </div>

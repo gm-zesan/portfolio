@@ -15,9 +15,14 @@ const Hero = () => {
                         </span>
                     </span>
                     <div className="mt-5">
-                        <button className="btn btn-default">
-                            Download Resume
-                        </button>
+                        <a
+                            href="https://drive.google.com/u/0/uc?id=1cxOwV5KDQkOG8HKTePto1Ao246NpTctk&export=download"
+                            className="ml-2"
+                        >
+                            <button className="btn btn-default">
+                                Download Resume
+                            </button>
+                        </a>
                     </div>
                 </div>
                 {/* scroll down mouse wheel */}

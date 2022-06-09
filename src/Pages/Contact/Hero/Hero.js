@@ -1,23 +1,23 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 const Hero = () => {
     return (
-        <div class="breadcrumb-section section-bg position-relative">
-            <div class="breadcrumb-shape-top-left"></div>
-            <div class="breadcrumb-shape-bottom-right"></div>
-            <div class="breadcrumb-box">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="breadcrumb-content text-center">
-                                <h2 class="title">Contact Me</h2>
+        <div className="breadcrumb-section section-bg position-relative">
+            <div className="breadcrumb-shape-top-left"></div>
+            <div className="breadcrumb-shape-bottom-right"></div>
+            <div className="breadcrumb-box">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="breadcrumb-content text-center">
+                                <h2 className="title">Contact Me</h2>
                                 <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb breadcrumb-link">
-                                        <li class="breadcrumb-item">
+                                    <ol className="breadcrumb breadcrumb-link">
+                                        <li className="breadcrumb-item">
                                             <Link to="/">Home</Link>
                                         </li>
                                         <li
-                                            class="breadcrumb-item active"
+                                            className="breadcrumb-item active"
                                             aria-current="page"
                                         >
                                             Contact

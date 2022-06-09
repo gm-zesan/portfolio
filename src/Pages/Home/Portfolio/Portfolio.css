@@ -16,6 +16,8 @@
 
 .portfolio-item .thumb {
     overflow: hidden;
+    height: 288px;
+    scroll-behavior:smooth;
 }
 
 .portfolio-item .details {

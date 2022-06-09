@@ -1,44 +1,52 @@
-import p1 from "../../../images/works/1.svg";
-import p2 from "../../../images/works/2.svg";
-import p3 from "../../../images/works/3.svg";
-import p4 from "../../../images/works/4.svg";
-import p5 from "../../../images/works/5.svg";
-import p6 from "../../../images/works/6.svg";
+import m1 from "../../../images/projects/1.png";
+import m2 from "../../../images/projects/2.png";
+import m3 from "../../../images/projects/3.png";
+import m4 from "../../../images/projects/4.png";
+import m5 from "../../../images/projects/5.png";
+import m6 from "../../../images/projects/6.png";
+import m7 from "../../../images/projects/7.png";
 const Project = [
     {
         id: 1,
-        name: "Project Managment Illustration",
-        image: p1,
+        name: "Freak eCommerce",
+        image: m7,
         category: "php",
     },
     {
         id: 2,
-        name: "Guest App Walkthrough Screens",
-        image: p2,
+        name: "Theme-Stock",
+        image: m1,
         category: "design",
     },
     {
         id: 3,
-        name: "Delivery App Wireframe",
-        image: p3,
-        category: "php",
+        name: "Greeno-Organic",
+        image: m3,
+        category: "react",
     },
     {
         id: 4,
-        name: "Onboarding Motivation",
-        image: p4,
-        category: "laravel",
+        name: "Student Attendance System",
+        image: m6,
+        category: "php",
     },
     {
         id: 5,
-        name: "iMac Mockup Design",
-        image: p5,
-        category: "laravel",
+        name: "Beauty-Perlar",
+        image: m2,
+        category: "design",
     },
     {
         id: 6,
-        name: "Game Store App Concept",
-        image: p6,
+        name: "Gym-Trainer",
+        image: m4,
+        category: "react",
+    },
+
+    {
+        id: 7,
+        name: "X_Parts",
+        image: m5,
         category: "react",
     },
 ];

@@ -6,16 +6,16 @@ import "./Services.css";
 const Services = () => {
     return (
         <section id="services">
-            <div class="container">
+            <div className="container">
                 {/* <!-- section title --> */}
-                <h2 class="section-title">Services</h2>
-                <div class="spacer"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="service-box data-background padding-30 text-center">
+                <h2 className="section-title">Services</h2>
+                <div className="spacer"></div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="service-box data-background padding-30 text-center">
                             <img src={sv1} alt="UI/UX design" />
-                            <h3 class="mb-3 mt-0">UI/UX design</h3>
-                            <p class="mb-0">
+                            <h3 className="mb-3 mt-0">Web design</h3>
+                            <p className="mb-0">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Dolorem ratione tempore
                                 dolorum modi quis nulla, libero eum
@@ -23,15 +23,15 @@ const Services = () => {
                             </p>
                         </div>
                         <div
-                            class="spacer d-md-none d-lg-none"
+                            className="spacer d-md-none d-lg-none"
                             data-height="30"
                         ></div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="service-box data-background padding-30 text-center">
+                    <div className="col-md-4">
+                        <div className="service-box data-background padding-30 text-center">
                             <img src={sv2} alt="UI/UX design" />
-                            <h3 class="mb-3 mt-0">Web Development</h3>
-                            <p class="mb-0">
+                            <h3 className="mb-3 mt-0">Front-end Development</h3>
+                            <p className="mb-0">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Dolorem ratione tempore
                                 dolorum modi quis nulla, libero eum
@@ -39,15 +39,15 @@ const Services = () => {
                             </p>
                         </div>
                         <div
-                            class="spacer d-md-none d-lg-none"
+                            className="spacer d-md-none d-lg-none"
                             data-height="30"
                         ></div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="service-box padding-30 text-center">
+                    <div className="col-md-4">
+                        <div className="service-box padding-30 text-center">
                             <img src={sv3} alt="UI/UX design" />
-                            <h3 class="mb-3 mt-0">Photography</h3>
-                            <p class="mb-0">
+                            <h3 className="mb-3 mt-0">Back-end Development</h3>
+                            <p className="mb-0">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Dolorem ratione tempore
                                 dolorum modi quis nulla, libero eum

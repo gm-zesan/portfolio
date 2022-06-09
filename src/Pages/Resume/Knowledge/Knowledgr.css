@@ -23,7 +23,7 @@
     content: "";
     position: absolute;
     z-index: 1;
-    left: 5em;
+    left: 3em;
     top: 40%;
     width: 0.6em;
     height: 0.6em;
@@ -93,7 +93,7 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
     .anim-li li::before {
-        left: 2em;
+        left: 0em;
     }
     .sub-title-kn::after {
         left: 37%;
@@ -101,7 +101,7 @@
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
     .anim-li li::before {
-        left: 4em;
+        left: 2em;
     }
     .sub-title-kn::after {
         left: 40%;
@@ -114,6 +114,6 @@
 }
 @media screen and (max-width: 380px) {
     .anim-li li::before {
-        left: 2em;
+        left: 0em;
     }
 }

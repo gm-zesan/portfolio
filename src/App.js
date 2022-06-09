@@ -10,16 +10,16 @@ function App() {
     return (
         <div className="dark">
             {/* <!-- Preloader Start --> */}
-            {/* <div class="preloader">
-                <div class="loader_34">
-                    <div class="ytp-spinner">
-                        <div class="ytp-spinner-container">
-                            <div class="ytp-spinner-rotator">
-                                <div class="ytp-spinner-left">
-                                    <div class="ytp-spinner-circle"></div>
+            {/* <div className="preloader">
+                <div className="loader_34">
+                    <div className="ytp-spinner">
+                        <div className="ytp-spinner-container">
+                            <div className="ytp-spinner-rotator">
+                                <div className="ytp-spinner-left">
+                                    <div className="ytp-spinner-circle"></div>
                                 </div>
-                                <div class="ytp-spinner-right">
-                                    <div class="ytp-spinner-circle"></div>
+                                <div className="ytp-spinner-right">
+                                    <div className="ytp-spinner-circle"></div>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ function App() {
                 <Route path="/resume" element={<Resume></Resume>}></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
-            
+
             <Footer></Footer>
         </div>
     );

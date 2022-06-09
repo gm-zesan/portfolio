@@ -1,12 +1,34 @@
-import React from "react";
-import {
-    faThumbsUp,
-    faUsers,
-    faMoneyBill,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useRef } from "react";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import MailIcon from "@mui/icons-material/Mail";
+import AddIcCallIcon from "@mui/icons-material/AddIcCall";
+import emailjs from "@emailjs/browser";
 import "./DetailsForm.css";
+import toast from "react-hot-toast";
 const DetailsForm = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_a4r7d29",
+                "template_lyi2dln",
+                form.current,
+                "-9wHne3DdoZLOEagp"
+            )
+            .then(
+                (result) => {
+                    toast.success("Message sent Successfully!");
+                    e.target.reset();
+                },
+                (error) => {
+                    toast.error("This isn't working");
+                    e.target.reset();
+                }
+            );
+    };
     return (
         <section id="contact">
             <div className="container">
@@ -19,7 +41,7 @@ const DetailsForm = () => {
                             <div className="address mt-5">
                                 <div className="d-flex">
                                     <div className="info-icon">
-                                        <FontAwesomeIcon icon={faThumbsUp} />
+                                        <LocationOnIcon />
                                     </div>
                                     <h4>Location:</h4>
                                 </div>
@@ -29,7 +51,7 @@ const DetailsForm = () => {
                             <div className="email">
                                 <div className="d-flex">
                                     <div className="info-icon">
-                                        <FontAwesomeIcon icon={faUsers} />
+                                        <MailIcon />
                                     </div>
                                     <h4>Email:</h4>
                                 </div>
@@ -39,7 +61,7 @@ const DetailsForm = () => {
                             <div className="phone">
                                 <div className="d-flex">
                                     <div className="info-icon">
-                                        <FontAwesomeIcon icon={faMoneyBill} />
+                                        <AddIcCallIcon />
                                     </div>
                                     <h4>Call:</h4>
                                 </div>
@@ -50,14 +72,18 @@ const DetailsForm = () => {
                     </div>
                     <div className="col-md-8 py-3">
                         <div id="form-messages"></div>
-                        <form id="contact-form" className="contact-form">
+                        <form
+                            className="contact-form"
+                            ref={form}
+                            onSubmit={sendEmail}
+                        >
                             <div className="row">
                                 <div className="column col-md-6">
                                     <div className="form-group">
                                         <input
                                             type="text"
                                             className="form-control black-box"
-                                            name="name"
+                                            name="user_name"
                                             id="name"
                                             placeholder="Your name"
                                             required="required"
@@ -69,7 +95,7 @@ const DetailsForm = () => {
                                         <input
                                             type="email"
                                             className="form-control black-box"
-                                            name="email"
+                                            name="user_email"
                                             placeholder="Email address"
                                             required="required"
                                         />

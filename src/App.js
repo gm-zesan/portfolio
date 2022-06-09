@@ -5,6 +5,7 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Resume from "./Pages/Resume/Resume/Resume";
 import Contact from "./Pages/Contact/Contact/Contact";
+import { Toaster } from "react-hot-toast";
 
 function App() {
     return (
@@ -33,7 +34,7 @@ function App() {
                 <Route path="/resume" element={<Resume></Resume>}></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
-
+            <Toaster position="top-center" reverseOrder={false} />
             <Footer></Footer>
         </div>
     );

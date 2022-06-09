@@ -1,12 +1,9 @@
 import React from "react";
 import avt from "../../../images/avatar-1.svg";
-import {
-    faBook,
-    faUsers,
-    faMoneyBill,
-    faComputer,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "./Myself.css";
 const Myself = () => {
     return (
@@ -26,16 +23,16 @@ const Myself = () => {
                                 <span>Full Stack Developer</span>
                                 <div className="gap-3 mt-5 icons d-flex">
                                     <a className="card-icon" href="/">
-                                        <FontAwesomeIcon icon={faBook} />
+                                        <FacebookRoundedIcon />
                                     </a>
                                     <a className="card-icon" href="/">
-                                        <FontAwesomeIcon icon={faUsers} />
+                                        <LinkedInIcon />
                                     </a>
                                     <a className="card-icon" href="/">
-                                        <FontAwesomeIcon icon={faMoneyBill} />
+                                        <WhatsAppIcon />
                                     </a>
                                     <a className="card-icon" href="/">
-                                        <FontAwesomeIcon icon={faComputer} />
+                                        <GitHubIcon/>
                                     </a>
                                 </div>
                                 {/* <div className=" px-2 rounded mt-4 date ">

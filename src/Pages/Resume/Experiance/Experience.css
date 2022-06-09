@@ -8,7 +8,7 @@
 .timeline .sub-title {
     position: absolute;
     top: -19px;
-    background-color: #FFD15C;
+    background-color: #ffd15c;
     border-radius: 30px;
     padding: 2px 1rem;
     color: #302f4e;
@@ -27,34 +27,18 @@
     margin-bottom: 0;
 }
 
-.timeline.edu .timeline-container::after {
-    content: "";
-    background: #302f4e;
-    font-family: "simple-line-icons";
-    font-size: 24px;
-    color: #FFD15C;
-    position: absolute;
-    left: -7px;
-    top: 0;
-    z-index: 1;
-}
-
-.timeline.exp .timeline-container::after {
-    content: "";
-    background: #302f4e;
-    font-family: "simple-line-icons";
-    font-size: 24px;
-    color: #FFD15C;
-    position: absolute;
-    left: -7px;
-    top: 0;
-    z-index: 1;
-}
 
 .timeline .content {
     position: relative;
 }
-
+.timeline .content img {
+    position: absolute;
+    left: -66px;
+    top: -5px;
+    z-index: 1;
+    width: 40px;
+    background-color: #302f4e;
+}
 .timeline .content .time {
     color: #8b88b1;
     font-size: 14px;
@@ -74,7 +58,7 @@
 .timeline span.line {
     position: absolute;
     width: 1px;
-    background-color: #FFD15C;
+    background-color: #fff;
     top: 30px;
     bottom: 30px;
     left: 34px;

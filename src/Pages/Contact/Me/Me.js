@@ -1,12 +1,9 @@
 import React from "react";
 import avt from "../../../images/avatar-1.svg";
-import {
-    faThumbsUp,
-    faUsers,
-    faMoneyBill,
-    faComputer,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "./Me.css";
 const Me = () => {
     return (
@@ -20,16 +17,16 @@ const Me = () => {
                     <h5>gmzesan7767@gmail.com</h5>
                     <div className="gap-5 mt-3 icons cont-icon w-lg-75 d-flex">
                         <a className="card-icon" href="/">
-                            <FontAwesomeIcon icon={faThumbsUp} />
+                            <FacebookRoundedIcon />
                         </a>
                         <a className="card-icon" href="/">
-                            <FontAwesomeIcon icon={faUsers} />
+                            <LinkedInIcon />
                         </a>
                         <a className="card-icon" href="/">
-                            <FontAwesomeIcon icon={faMoneyBill} />
+                            <WhatsAppIcon />
                         </a>
                         <a className="card-icon" href="/">
-                            <FontAwesomeIcon icon={faComputer} />
+                            <GitHubIcon />
                         </a>
                     </div>
                 </div>

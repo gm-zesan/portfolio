@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../../../logo3.png";
-import {
-    faThumbsUp,
-    faUsers,
-    faMoneyBill,
-    faComputer,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "./Navabr.css";
 import CustomLink from "../CustomeLink/CustomeLink";
 
@@ -51,16 +48,16 @@ const Header = () => {
                     </Nav>
                     <Nav className="ms-auto d-none d-md-block">
                         <a className="social-icon" href="/">
-                            <FontAwesomeIcon icon={faThumbsUp} />
+                            <FacebookRoundedIcon />
                         </a>
                         <a className="social-icon" href="/">
-                            <FontAwesomeIcon icon={faUsers} />
+                            <LinkedInIcon />
                         </a>
                         <a className="social-icon" href="/">
-                            <FontAwesomeIcon icon={faMoneyBill} />
+                            <WhatsAppIcon />
                         </a>
                         <a className="social-icon" href="/">
-                            <FontAwesomeIcon icon={faComputer} />
+                            <GitHubIcon />
                         </a>
                     </Nav>
                 </Navbar.Collapse>

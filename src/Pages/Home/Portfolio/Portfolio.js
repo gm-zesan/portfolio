@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import "./Portfolio.css";
 import Project from "./project";
+import { useNavigate } from "react-router-dom";
 const Portfolio = () => {
+    const navigate = useNavigate();
     const [project] = useState(Project);
     const [updateProject, setUpdateProject] = useState(Project);
 
@@ -12,6 +14,9 @@ const Portfolio = () => {
         });
 
         setUpdateProject(pro);
+    };
+    const handleProjects = (id) => {
+        navigate(`/project/${id}`);
     };
     return (
         <section id="works">
@@ -87,6 +92,14 @@ const Portfolio = () => {
                                             <h4 className="title">
                                                 {elem.name}
                                             </h4>
+                                            <div
+                                                onClick={() => handleProjects(`${elem.id}`)}
+                                                className="mx-auto"
+                                            >
+                                                <button className="btn btn-default">
+                                                    Details
+                                                </button>
+                                            </div>
                                             <span className="more-button">
                                                 <i className="icon-magnifier-add"></i>
                                             </span>

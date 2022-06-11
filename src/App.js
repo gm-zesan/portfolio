@@ -6,6 +6,8 @@ import { Route, Routes } from "react-router-dom";
 import Resume from "./Pages/Resume/Resume/Resume";
 import Contact from "./Pages/Contact/Contact/Contact";
 import { Toaster } from "react-hot-toast";
+import ProjectDetails from "./Pages/ProjectDetails/ProjectDetails";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
     return (
@@ -31,8 +33,13 @@ function App() {
             <Header></Header>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
+                <Route
+                    path="/project/:projectId"
+                    element={<ProjectDetails></ProjectDetails>}
+                ></Route>
                 <Route path="/resume" element={<Resume></Resume>}></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
+                <Route path="/blog" element={<Blog></Blog>}></Route>
             </Routes>
             <Toaster position="top-center" reverseOrder={false} />
             <Footer></Footer>

@@ -40,10 +40,13 @@ const Header = () => {
                             Home
                         </CustomLink>
                         <CustomLink className="nav-link" to="/resume">
-                            Resume
+                            About Me
                         </CustomLink>
                         <CustomLink className="nav-link" to="/contact">
                             Contact
+                        </CustomLink>
+                        <CustomLink className="nav-link" to="/blog">
+                            Blog
                         </CustomLink>
                     </Nav>
                     <Nav className="ms-auto d-none d-md-block">

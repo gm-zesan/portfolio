@@ -12,6 +12,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    border: 5px solid #FFD15C;
 }
 
 .portfolio-item .thumb {
@@ -38,6 +39,15 @@
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     position: absolute;
     top: 60px;
+}
+.portfolio-item .details .btn {
+    margin: 50px 105px 10px;
+    padding: 0 20px;
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    position: absolute;
+    top: 80px;
 }
 
 .portfolio-item .details span.term {
@@ -89,7 +99,8 @@
 }
 
 .portfolio-item:hover .details h4,
-.portfolio-item:hover .details span {
+.portfolio-item:hover .details span,
+.portfolio-item:hover .details .btn {
     opacity: 1;
     transform: translateY(0);
 }

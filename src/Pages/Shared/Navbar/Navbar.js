@@ -50,16 +50,31 @@ const Header = () => {
                         </CustomLink>
                     </Nav>
                     <Nav className="ms-auto d-none d-md-block">
-                        <a className="social-icon" href="/">
+                        <a
+                            className="social-icon"
+                            href="https://www.facebook.com/Zesan.xyz/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <FacebookRoundedIcon />
                         </a>
-                        <a className="social-icon" href="/">
+                        <a
+                            className="social-icon"
+                            href="https://www.linkedin.com/in/gm-zesan-5a2a16184/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <LinkedInIcon />
                         </a>
-                        <a className="social-icon" href="/">
+                        <a className="social-icon" href="/" target="_blank">
                             <WhatsAppIcon />
                         </a>
-                        <a className="social-icon" href="/">
+                        <a
+                            className="social-icon"
+                            href="https://github.com/GM-Zesan"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <GitHubIcon />
                         </a>
                     </Nav>

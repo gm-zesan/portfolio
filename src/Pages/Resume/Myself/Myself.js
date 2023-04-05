@@ -22,22 +22,34 @@ const Myself = () => {
                                 <h4 className="mt-3">G.M. Zesan</h4>
                                 <span>Full Stack Developer</span>
                                 <div className="gap-3 mt-5 icons d-flex">
-                                    <a className="card-icon" href="/">
+                                    <a
+                                        className="card-icon"
+                                        href="https://www.facebook.com/Zesan.xyz/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
                                         <FacebookRoundedIcon />
                                     </a>
-                                    <a className="card-icon" href="/">
+                                    <a
+                                        className="card-icon"
+                                        href="https://www.linkedin.com/in/gm-zesan-5a2a16184/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
                                         <LinkedInIcon />
                                     </a>
                                     <a className="card-icon" href="/">
                                         <WhatsAppIcon />
                                     </a>
-                                    <a className="card-icon" href="/">
-                                        <GitHubIcon/>
+                                    <a
+                                        className="card-icon"
+                                        href="https://github.com/GM-Zesan"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <GitHubIcon />
                                     </a>
                                 </div>
-                                {/* <div className=" px-2 rounded mt-4 date ">
-                                    <span className="join">Joined May,2021</span>
-                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -95,7 +107,7 @@ const Myself = () => {
                             </div>
                             <div className="mt-3">
                                 <a
-                                    href="https://drive.google.com/u/0/uc?id=1cxOwV5KDQkOG8HKTePto1Ao246NpTctk&export=download"
+                                    href="https://drive.google.com/file/d/1UPCsj2LD8uN2YDg0eegKfjDWqyRNRz2c/view"
                                     className="btn btn-default"
                                 >
                                     Download Resume

@@ -1,5 +1,4 @@
 import React from "react";
-import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import "./Experience.css";
 import icon from "../../../images/projects/icons8-graduation-cap-50.png";
 const Experience = () => {
@@ -14,19 +13,19 @@ const Experience = () => {
                             <h2 className="sub-title">Academic</h2>
                             <div className="timeline-container">
                                 <div className="content">
-                                    <img src={icon}></img>
+                                    <img src={icon} alt=""></img>
                                     <span className="time">2021 - Running</span>
                                     <h3 className="title">Bachelor’s Degree</h3>
                                     <p>
-                                        Bachelor is running(First Year) in Green
-                                        University of Bangladesh. Department is
-                                        CSE.
+                                        Bachelor is running(Second Year) in
+                                        Green University of Bangladesh.
+                                        Department is CSE.
                                     </p>
                                 </div>
                             </div>
                             <div className="timeline-container">
                                 <div className="content">
-                                    <img src={icon}></img>
+                                    <img src={icon} alt=""></img>
                                     <span className="time">2016 - 2020</span>
                                     <h3 className="title">Diploma</h3>
                                     <p>
@@ -37,7 +36,7 @@ const Experience = () => {
                             </div>
                             <div className="timeline-container">
                                 <div className="content">
-                                    <img src={icon}></img>
+                                    <img src={icon} alt=""></img>
                                     <span className="time">2015 - 2016</span>
                                     <h3 className="title">SSC</h3>
                                     <p>
@@ -58,7 +57,7 @@ const Experience = () => {
                             <h2 className="sub-title">Skill log</h2>
                             <div className="timeline-container">
                                 <div className="content">
-                                    <img src={icon}></img>
+                                    <img src={icon} alt=""></img>
                                     <span className="time">2022 - Running</span>
                                     <h3 className="title">React & Express</h3>
                                     <p>
@@ -70,19 +69,22 @@ const Experience = () => {
                             </div>
                             <div className="timeline-container">
                                 <div className="content">
-                                    <img src={icon}></img>
-                                    <span className="time">2018 - 2019</span>
-                                    <h3 className="title">PHP(OOP)</h3>
+                                    <img src={icon} alt=""></img>
+                                    <span className="time">
+                                        2018 - 2019 & 2023 - Running
+                                    </span>
+                                    <h3 className="title">PHP(Laravel)</h3>
                                     <p>
                                         I had taken some ideas about PHP (OOP)
                                         from a course at Doel Campus. Then I was
-                                        in polytechnic.
+                                        in polytechnic. But recently I have
+                                        started development with PHP-Laravel
                                     </p>
                                 </div>
                             </div>
                             <div className="timeline-container">
                                 <div className="content">
-                                    <img src={icon}></img>
+                                    <img src={icon} alt=""></img>
                                     <span className="time">2017-2018</span>
                                     <h3 className="title">HTML & CSS</h3>
                                     <p>

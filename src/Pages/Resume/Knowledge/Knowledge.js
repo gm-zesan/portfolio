@@ -9,7 +9,7 @@ const Knowledge = () => {
                 <div className="spacer"></div>
                 <div className="black-box padding-30">
                     <div className="row align-items-center justify-content-center text-center">
-                        <h2 className="sub-title-kn">Femilier At</h2>
+                        <h2 className="sub-title-kn">Femilier At-(Working)</h2>
                         <div className="spacer-50"></div>
                         <div className="col-12 col-md-4">
                             <img src={avt} height="auto" width="50%" alt="" />
@@ -19,8 +19,8 @@ const Knowledge = () => {
                             <li>Mysql</li>
                         </div>
                         <div className="col-12 col-md-4 anim-li">
-                            <li>Laravel(Basic)</li>
-                            <li>C(Fundamental)</li>
+                            <li>Laravel</li>
+                            <li>GitHub-(Team-Work)</li>
                         </div>
                     </div>
                     <div className="spacer-20"></div>

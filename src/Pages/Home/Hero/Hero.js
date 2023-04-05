@@ -11,12 +11,12 @@ const Hero = () => {
                     <span>
                         I'm a{" "}
                         <span className="text-rotating">
-                            Front-End developer
+                            Full-Stack developer
                         </span>
                     </span>
                     <div className="mt-5">
                         <a
-                            href="https://drive.google.com/u/0/uc?id=1cxOwV5KDQkOG8HKTePto1Ao246NpTctk&export=download"
+                            href="https://drive.google.com/file/d/1UPCsj2LD8uN2YDg0eegKfjDWqyRNRz2c/view"
                             className="ml-2"
                         >
                             <button className="btn btn-default">

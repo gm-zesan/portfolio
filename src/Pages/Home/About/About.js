@@ -21,7 +21,7 @@ const About = () => {
                             </p>
                             <div className="mt-3">
                                 <a
-                                    href="https://drive.google.com/u/0/uc?id=1cxOwV5KDQkOG8HKTePto1Ao246NpTctk&export=download"
+                                    href="https://drive.google.com/file/d/1UPCsj2LD8uN2YDg0eegKfjDWqyRNRz2c/view"
                                     className="btn btn-default"
                                 >
                                     Download Resume

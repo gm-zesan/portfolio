@@ -29,7 +29,7 @@ const NextBtn = (props) => {
 };
 const ProjectDetails = () => {
     const { projectId } = useParams();
-    const [project, setProject] = useState(Project);
+    const [project] = useState(Project);
     const pro = project.find((project) => project.id === parseInt(projectId));
     return (
         <>

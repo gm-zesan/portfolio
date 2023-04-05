@@ -35,18 +35,28 @@ const Skill = () => {
                                 <h4 className="float-left mb-3 mt-0">
                                     Express JS
                                 </h4>
+                                <span className="float-right">70%</span>
+                            </div>
+                            <ProgressBar variant="success" now={70} />
+                        </div>
+                        {/* <!-- skill item --> */}
+                        <div className="skill-item">
+                            <div className="skill-info clearfix">
+                                <h4 className="float-left mb-3 mt-3">
+                                    PHP(Laravel-MVC)
+                                </h4>
                                 <span className="float-right">50%</span>
                             </div>
-                            <ProgressBar variant="success" now={50} />
+                            <ProgressBar variant="danger" now={50} />
                         </div>
                     </div>
                     <div className="col-md-6 ps-md-5">
                         <div className="skill-item">
                             <div className="skill-info clearfix">
                                 <h4 className="float-left mb-3 mt-0">CSS</h4>
-                                <span className="float-right">70%</span>
+                                <span className="float-right">50%</span>
                             </div>
-                            <ProgressBar variant="warning" now={70} />
+                            <ProgressBar variant="warning" now={50} />
                             <div className="spacer-20"></div>
                         </div>
                         {/* <!-- skill item --> */}
@@ -55,9 +65,9 @@ const Skill = () => {
                                 <h4 className="float-left mb-3 mt-0">
                                     React JS
                                 </h4>
-                                <span className="float-right">60%</span>
+                                <span className="float-right">70%</span>
                             </div>
-                            <ProgressBar variant="info" now={60} />
+                            <ProgressBar variant="info" now={70} />
                             <div className="spacer-20"></div>
                         </div>
                         {/* <!-- skill item --> */}
@@ -66,9 +76,19 @@ const Skill = () => {
                                 <h4 className="float-left mb-3 mt-0">
                                     MongoDB
                                 </h4>
-                                <span className="float-right">73%</span>
+                                <span className="float-right">75%</span>
                             </div>
-                            <ProgressBar variant="success" now={73} />
+                            <ProgressBar variant="success" now={75} />
+                        </div>
+                        {/* <!-- skill item --> */}
+                        <div className="skill-item">
+                            <div className="skill-info clearfix">
+                                <h4 className="float-left mb-3 mt-3">
+                                    MySQL
+                                </h4>
+                                <span className="float-right">60%</span>
+                            </div>
+                            <ProgressBar variant="danger" now={60} />
                         </div>
                     </div>
                 </div>

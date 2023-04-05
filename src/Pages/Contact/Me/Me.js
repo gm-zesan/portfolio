@@ -16,16 +16,31 @@ const Me = () => {
                     <h2 className="mt-3">G.M. Zesan</h2>
                     <h5>gmzesan7767@gmail.com</h5>
                     <div className="gap-5 mt-3 icons cont-icon w-lg-75 d-flex">
-                        <a className="card-icon" href="/">
+                        <a
+                            className="card-icon"
+                            href="https://www.facebook.com/Zesan.xyz/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <FacebookRoundedIcon />
                         </a>
-                        <a className="card-icon" href="/">
+                        <a
+                            className="card-icon"
+                            href="https://www.linkedin.com/in/gm-zesan-5a2a16184/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <LinkedInIcon />
                         </a>
                         <a className="card-icon" href="/">
                             <WhatsAppIcon />
                         </a>
-                        <a className="card-icon" href="/">
+                        <a
+                            className="card-icon"
+                            href="https://github.com/GM-Zesan"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <GitHubIcon />
                         </a>
                     </div>

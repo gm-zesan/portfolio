@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MailIcon from "@mui/icons-material/Mail";
-import AddIcCallIcon from "@mui/icons-material/AddIcCall";
-import emailjs from "@emailjs/browser";
-import "./DetailsForm.css";
+import React, { useRef } from "react";
 import toast from "react-hot-toast";
+import "./DetailsForm.css";
 const DetailsForm = () => {
     const form = useRef();
 
@@ -45,7 +45,7 @@ const DetailsForm = () => {
                                     </div>
                                     <h4>Location:</h4>
                                 </div>
-                                <p>Lalmati, Mirpur-11, Dhaka, Bangladesh</p>
+                                <p>House-46, Road-13, Sector-11, Uttara, Dhaka</p>
                             </div>
 
                             <div className="email">

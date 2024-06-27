@@ -16,7 +16,7 @@ const Hero = () => {
                     </span>
                     <div className="mt-5">
                         <a
-                            href="https://drive.google.com/file/d/1UPCsj2LD8uN2YDg0eegKfjDWqyRNRz2c/view"
+                            href="https://drive.google.com/file/d/1Fk8aMyUckRzgd4NyXDPiKfXlH0KP5W4m/view"
                             className="ml-2"
                         >
                             <button className="btn btn-default">

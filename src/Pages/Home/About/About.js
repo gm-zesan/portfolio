@@ -1,6 +1,6 @@
 import React from "react";
+import profile from "../../../images/profile.jpg";
 import "./About.css";
-import avt from "../../../images/avatar-2.svg";
 const About = () => {
     return (
         <section id="about">
@@ -11,17 +11,11 @@ const About = () => {
                     <div className="col-md-8">
                         <div className="black-box padding-30">
                             <p>
-                                I am G.M. Zesan, web developer from Dhaka,
-                                Bangladesh. I have rich experience in web site
-                                design and building and customization, also I am
-                                good at React. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Rem fugit
-                                excepturi quae animi neque commodi. Officia,
-                                voluptatem? Magni, totam voluptas.
+                                Welcome to my portfolio! I am G.M. Zesan, full-stack developer with expertise in the MERN stack (MongoDB, Express.js, React, and Node.js) and PHP with Laravel. I specialize in creating dynamic, scalable web applications and have a passion for building seamless user experiences. With a strong foundation in both frontend and backend technologies, I thrive on solving complex problems and bringing innovative ideas to life.
                             </p>
                             <div className="mt-3">
                                 <a
-                                    href="https://drive.google.com/file/d/1UPCsj2LD8uN2YDg0eegKfjDWqyRNRz2c/view"
+                                    href="https://drive.google.com/file/d/1Fk8aMyUckRzgd4NyXDPiKfXlH0KP5W4m/view"
                                     className="btn btn-default"
                                 >
                                     Download Resume
@@ -31,7 +25,7 @@ const About = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="text-center text-md-right">
-                            <img src={avt} alt="omor" className="me" />
+                            <img src={profile} alt="omor" className="me" />
                         </div>
                         <div
                             className="spacer d-md-none d-lg-none"

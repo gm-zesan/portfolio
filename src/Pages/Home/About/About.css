@@ -21,8 +21,11 @@
 .spacer {
     height: 60px;
 }
-.me{
-    width: 220px;
+.me {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .black-box {
     background: #302f4e !important;

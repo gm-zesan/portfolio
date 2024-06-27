@@ -1,9 +1,9 @@
-import React from "react";
-import avt from "../../../images/avatar-1.svg";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import React from "react";
+import avt from "../../../images/avatar-1.svg";
 import "./Myself.css";
 const Myself = () => {
     return (
@@ -107,7 +107,7 @@ const Myself = () => {
                             </div>
                             <div className="mt-3">
                                 <a
-                                    href="https://drive.google.com/file/d/1UPCsj2LD8uN2YDg0eegKfjDWqyRNRz2c/view"
+                                    href="https://drive.google.com/file/d/1Fk8aMyUckRzgd4NyXDPiKfXlH0KP5W4m/view"
                                     className="btn btn-default"
                                 >
                                     Download Resume

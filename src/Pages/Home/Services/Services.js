@@ -16,10 +16,7 @@ const Services = () => {
                             <img src={sv1} alt="UI/UX design" />
                             <h3 className="mb-3 mt-0">Web design</h3>
                             <p className="mb-0">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolorem ratione tempore
-                                dolorum modi quis nulla, libero eum
-                                exercitationem iure!
+                            My web design service combines creativity with functionality to craft visually stunning and user-friendly websites. Whether you're establishing a brand presence your current site, I ensure a seamless and engaging user experience.
                             </p>
                         </div>
                         <div
@@ -32,10 +29,7 @@ const Services = () => {
                             <img src={sv2} alt="UI/UX design" />
                             <h3 className="mb-3 mt-0">Front-end Development</h3>
                             <p className="mb-0">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolorem ratione tempore
-                                dolorum modi quis nulla, libero eum
-                                exercitationem iure!
+                            Transforming designs into interactive web interfaces is my specialty. Using Using cutting-edge technologies like HTML5, CSS3, Bootstrap and JavaScript, I create responsive and intuitive frontend solutions.
                             </p>
                         </div>
                         <div
@@ -48,10 +42,7 @@ const Services = () => {
                             <img src={sv3} alt="UI/UX design" />
                             <h3 className="mb-3 mt-0">Back-end Development</h3>
                             <p className="mb-0">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolorem ratione tempore
-                                dolorum modi quis nulla, libero eum
-                                exercitationem iure!
+                            Powering your website with robust backend solutions is crucial for seamless performance. My backend development service focuses on scalability, security, and efficiency frameworks like Express JS, and Laravel.
                             </p>
                         </div>
                     </div>
